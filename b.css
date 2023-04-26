@@ -24,6 +24,7 @@ ul li a{
 
 main{
     height:81vh;
+    background: url(/pao.jpg)no-repeat center/cover;
 }
 
 footer{
