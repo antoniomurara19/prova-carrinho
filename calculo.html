@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <script src="app.js"defer></script>
+    <title>Cálculo da Comida</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/produto.html">Produtos</a></li>
+                <li><a href="/calculo.html">Calcular</a></li>
+                <li><a href="/historia.html">História da empresa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="tabela">
+            <table>
+                <h2>Tabela de Preço dos Produtos</h2>
+                <th>Lanche</th><th>Unidade</th>
+                <tr><th>1</th><th>Cachorro Quente</th><th> R$7,90</th></tr>
+                <tr><th>2</th><th>Misto Quente </th><th> R$5,75</th></tr>
+                <tr><th>3</th><th> Bauru</th><th>   R$11,35</th></tr>
+                <tr><th>4</th><th>Cheese Burguer</th><th> R$14,60</th></tr>
+                <tr><th>5</th><th>Cheese Egg</th><th> R$15,40</th></tr>
+                <tr><th>6</th><th> Cheese Frango</th><th> R$12,90</th></tr>
+                <tr><th>7</th><th>Refrigerante</th><th>  R$4,90</th></tr>
+                <tr><th>8</th><th>Suco de Frutas</th><th>  R$4,30</th></tr>
+                <tr><th>9</th><th>Café médio</th><th>  R$3,50</th></tr>
+                <tr><th>10</th><th>Café com Leite</th><th> R$4,20</th></tr> 
+            </table>
+        </div>
+        <div class="comprar">
+            <label for="produto">Digite o número do seu produto</label>
+            <input type="text" id="produto">
+            <label for="quantidade">Digite a quantidade do seu produto</label>
+            <input type="text" id="quantidade">&nbsp;&nbsp;&nbsp;
+            <button id="confirmar">Confirmar Venda</button>&nbsp;&nbsp;&nbsp;
+            <button id="total">Total Venda</button><br><br>
+            <p id="result">Carrinho:<br></p>
+        </div>
+    </main>
+    <footer>
+        <h3>Empresa Criada em 1988</h3>
+        <h4>&copy;Todos os direitos reservados</h4>
+    </footer>
+</body>
+</html>
